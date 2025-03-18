@@ -5,8 +5,6 @@ Welcome to the DSA Repository! 🚀 This repository contains implementations of 
 
 ✅ Arrays
 
-✅ Linked Lists
-
 ✅ Sorting Algorithms
 
 ✅ Binary Search
