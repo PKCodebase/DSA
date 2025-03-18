@@ -36,19 +36,14 @@ public static void mergeArray(int arr[], int start, int mid, int end) {
 
 
 }
-
-
-    public static void mergeSort(int arr[],int start,int end) {
+public static void mergeSort(int arr[],int start,int end) {
         if (start < end) {
             int mid = start+(end-start) / 2;
             mergeSort(arr, start, mid);
             mergeSort(arr, mid + 1, end);
             mergeArray(arr, start, mid, end);
         }
-
-
-
-    }
+}
     public static void main(String[] args) {
         int arr[] = { 10,5 };
         int start=0;
