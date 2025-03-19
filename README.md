@@ -9,6 +9,8 @@ Welcome to the DSA Repository! 🚀 This repository contains implementations of 
 
 ✅ Binary Search
 
+✅ Stack
+
 ✅ Recursion & Backtracking
 
 
