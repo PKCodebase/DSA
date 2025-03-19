@@ -1,6 +1,4 @@
-package com.sorting;
-
-import java.util.Arrays;
+package merge;
 
 public class MergedTwoSortedArray {
 

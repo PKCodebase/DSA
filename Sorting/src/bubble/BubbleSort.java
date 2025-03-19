@@ -1,4 +1,4 @@
-package com.sorting;
+package bubble;
 
 import java.util.Arrays;
 

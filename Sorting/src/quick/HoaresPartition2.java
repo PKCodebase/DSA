@@ -1,20 +1,21 @@
-package insertion;
+package quick;
 
-public class HoaresPartition {
+public class HoaresPartition2 {
     public static void hoaresPartition(int[] arr, int low, int high) {
 
         int pivot = arr[low];
-        int i = low - 1;
-        int j = high + 1;
+        int i = low;
+        int j = high;
 
         while (true) {
-            do {
-                i++;
-            } while (arr[i] < pivot);
 
-            do {
-                j--;
-            } while (arr[j] > pivot);
+             while (arr[i] < pivot){
+                 i++;
+             }
+
+           while (arr[j] > pivot){
+               j--;
+           }
 
             if (i >= j) {
                 return;

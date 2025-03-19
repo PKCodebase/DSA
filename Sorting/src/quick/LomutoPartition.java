@@ -1,4 +1,4 @@
-package insertion;
+package quick;
 
 public class LomutoPartition {
     public static void lomutoPartition(int[] arr, int low, int high){

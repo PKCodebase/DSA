@@ -1,4 +1,4 @@
-package insertion;
+package quick;
 
 import java.util.Arrays;
 
