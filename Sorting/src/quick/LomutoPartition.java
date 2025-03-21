@@ -23,6 +23,9 @@ public class LomutoPartition {
         int high = arr.length - 1;
         lomutoPartition(arr, low, high);
         System.out.println("Array after partitioning:");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }
 
