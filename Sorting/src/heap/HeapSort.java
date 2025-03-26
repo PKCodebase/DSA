@@ -18,11 +18,10 @@ public class HeapSort {
             heapiFy(arr,n,maxIndex);
         }
     }
+
     public static void heapSort(int arr[]){
         int n = arr.length;
-        for(int i=n/2-1;i>=0;i--){
-            heapiFy(arr, n, i);
-        }
+       buildMaxHeap(arr);
         for(int i=n-1;i>=0;i--){
             int temp = arr[0];
             arr[0] = arr[i];
@@ -36,6 +35,7 @@ public class HeapSort {
             heapiFy(arr, n, i);
         }
     }
+
     public static void main(String[] args) {
         int arr[] = {10, 80, 30, 90, 40, 50,12,6,19, 70};
         heapSort(arr);
