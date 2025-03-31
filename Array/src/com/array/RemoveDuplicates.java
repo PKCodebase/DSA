@@ -13,7 +13,6 @@ public class RemoveDuplicates {
         }
         return j + 1; // New length of unique elements
     }
-
     public static void main(String[] args) {
         int nums[] = { 1, 1, 2, 3, 4, 4};
         int ans = removeDuplicates(nums);
