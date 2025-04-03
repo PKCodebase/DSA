@@ -14,7 +14,7 @@ public class MaximumTriplet_I {
     }
     public static void main(String[] args) {
         MaximumTriplet_I m=new MaximumTriplet_I();
-        int nums[]={1,2,3};
+        int nums[]={12,6,1,2,7};
         System.out.println(m.maximumTripletValue(nums));
     }
 }
