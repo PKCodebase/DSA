@@ -1,7 +1,7 @@
 package searching;
 
 public class FindDescendingIndex {
-    public static void findIndex(int nums[],int target){
+    public static void findIndexDescending(int nums[],int target){
 
         int start = 0;
         int end = nums.length-1;
@@ -26,6 +26,6 @@ public class FindDescendingIndex {
     public static void main(String[] args) {
         int[] nums = {90,89,67,45,23,6,5,4,3,2,1};
         int target = 5;
-        findIndex(nums,target);
+        findIndexDescending(nums,target);
     }
 }
