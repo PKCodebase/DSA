@@ -1,4 +1,4 @@
-package searching;
+package searching.binary;
 
 public class Sqrt {
     public static int mySqrt(int num){

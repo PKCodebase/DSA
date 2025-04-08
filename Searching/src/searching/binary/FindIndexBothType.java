@@ -1,7 +1,7 @@
-package searching;
+package searching.binary;
 
-import static searching.FindDescendingIndex.findIndexDescending;
-import static searching.FindIndex.findIndex;
+import static searching.binary.FindDescendingIndex.findIndexDescending;
+import static searching.binary.FindIndex.findIndex;
 
 public class FindIndexBothType {
     public static void FindIndexBothType(int arr[],int target){

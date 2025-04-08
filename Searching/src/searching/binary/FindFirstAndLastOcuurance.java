@@ -1,4 +1,4 @@
-package searching;
+package searching.binary;
 
 public class FindFirstAndLastOcuurance {
     public int[] searchRange(int arr[], int target) {

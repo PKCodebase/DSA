@@ -1,4 +1,4 @@
-package searching;
+package searching.binary;
 
 public class FindDescendingIndex {
     public static void findIndexDescending(int nums[],int target){

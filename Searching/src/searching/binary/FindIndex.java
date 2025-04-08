@@ -1,4 +1,4 @@
-package searching;
+package searching.binary;
 
 public class FindIndex {
     public static void findIndex(int[] arr, int target) {
