@@ -29,8 +29,8 @@ public class MaxSumSubArrayOfSizeK {
         return maxSum;
     }
     public static void main(String[] args) {
-        int[] arr = {2, 1, 5, 1, 3, 2};
-        int k = 3;
+        int[] arr = {10, 5, 7, 9, 4, 2};
+        int k = 2;
         System.out.println(maximumSubArray(arr, k));
     }
 }
