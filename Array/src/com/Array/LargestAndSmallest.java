@@ -7,7 +7,6 @@ public class LargestAndSmallest {
             System.out.println("Array is empty");
             return;
         }
-
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
